@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.juhyuck.ck_java_android_project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="대한민국 종합통계"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".EmployLaborWage" />
+        <activity android:name=".HealthSocietyWelfare" />
+        <activity android:name=".Population" />
+        <activity android:name=".Prices" />
+        <activity android:name=".TwthCongressPreConviction" />
+        <activity android:name=".Splashactivity" />
+    </application>
+
+</manifest>
