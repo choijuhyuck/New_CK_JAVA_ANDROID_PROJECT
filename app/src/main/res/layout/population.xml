@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp">
 
     <Button
-        android:text="Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button" />
+        android:text="합계 출산율(Fertility Rate)"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:id="@+id/button1" />
+
+    <Button
+        android:text="혼인건수"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:id="@+id/button2" />
+
+
+    <Button
+        android:text="고령인구 비율"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:id="@+id/button3" />
 </LinearLayout>

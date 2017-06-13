@@ -15,13 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".EmployLaborWage" />
         <activity android:name=".HealthSocietyWelfare" />
-        <activity android:name=".Population" />
+        <activity android:name=".population_component.Population" />
         <activity android:name=".Prices" />
         <activity android:name=".TwthCongressPreConviction" />
         <activity android:name=".Splashactivity" />
+        <activity android:name=".population_component.Fertility_Rate"></activity>
     </application>
 
 </manifest>
