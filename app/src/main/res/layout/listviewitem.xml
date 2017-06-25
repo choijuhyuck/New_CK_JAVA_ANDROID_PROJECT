@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="년도"
+        android:textSize="25dp"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/textView1" />
+
+    <TextView
+        android:text="데이터"
+        android:textSize="25dp"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/textView2" />
+
+
+</LinearLayout>
