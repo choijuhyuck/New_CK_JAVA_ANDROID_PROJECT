@@ -8,8 +8,8 @@
         android:textSize="25dp"
         android:layout_width="151dp"
         android:layout_height="wrap_content"
-        android:textColor="#000000"
-        android:id="@+id/textView1" />
+        android:textColor="#808080"
+        android:id="@+id/year_tv" />
 
     <TextView
         android:text="데이터"
@@ -17,7 +17,7 @@
         android:layout_width="147dp"
         android:layout_height="wrap_content"
         android:textColor="#000000"
-        android:id="@+id/textView2" />
+        android:id="@+id/data_tv" />
 
 
 </LinearLayout>

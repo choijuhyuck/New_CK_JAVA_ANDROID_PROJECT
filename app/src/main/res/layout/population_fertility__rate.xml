@@ -30,11 +30,22 @@
             android:layout_gravity="center_horizontal"
             android:id="@+id/textView0" />
 
+
+        <TextView
+            android:text="연도/Year        합계 출산율 지표"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:id="@+id/year_tv" />
+
+
         <ListView
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:dividerHeight="4dp"
+            android:dividerHeight="7dp"
             android:divider="#ffffff"
             android:id="@+id/listview1"/>
 
