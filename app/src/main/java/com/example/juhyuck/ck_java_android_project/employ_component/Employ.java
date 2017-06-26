@@ -1,4 +1,4 @@
-package com.example.juhyuck.ck_java_android_project.population_component;
+package com.example.juhyuck.ck_java_android_project.employ_component;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,17 +9,17 @@ import android.widget.TextView;
 
 import com.example.juhyuck.ck_java_android_project.R;
 
-// 합계 출산율
-// 혼인건수
-// 고령인구 비율
+/**
+ * Created by juhyuck on 2017-06-07.
+ */
 
-public class Population extends AppCompatActivity {
+public class Employ extends AppCompatActivity {
     protected Button bt0, bt1, bt2;
     protected TextView tx1;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.population);
+        setContentView(R.layout.employ);
 
         bt0 = (Button) findViewById(R.id.button0);
         bt1 = (Button) findViewById(R.id.button1);
@@ -31,7 +31,7 @@ public class Population extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Population_Recent_Data.class);
+                Intent intent = new Intent(getApplicationContext(), Employ_Recent_Data.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
                 startActivityForResult(intent, 100);
@@ -43,7 +43,7 @@ public class Population extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Population_Fertility_Data.class);
+                Intent intent = new Intent(getApplicationContext(), Employ_LaborHour_Data.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
                 startActivityForResult(intent, 100);
@@ -55,7 +55,7 @@ public class Population extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Population_Marryed_Data.class);
+                Intent intent = new Intent(getApplicationContext(), Employ_YouthJobless_Data.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
                 startActivityForResult(intent, 100);
@@ -70,8 +70,6 @@ public class Population extends AppCompatActivity {
 
 
 
+
+
 }
-
-
-
-

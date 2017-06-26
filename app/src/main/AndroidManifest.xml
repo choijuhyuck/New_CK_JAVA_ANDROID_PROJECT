@@ -17,15 +17,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EmployLaborWage" />
-        <activity android:name=".health_component.HealthSocietyWelfare" />
+        <activity android:name=".employ_component.Employ" />
+        <activity android:name=".health_component.Health" />
         <activity android:name=".population_component.Population" />
-        <activity android:name=".Prices" />
+        <activity android:name=".prices_component.Prices" />
         <activity android:name=".TwthCongressPreConviction" />
         <activity android:name=".Splashactivity" />
-        <activity android:name=".population_component.Fertility_Rate" />
+        <activity android:name=".population_component.Population_Fertility_Data" />
         <activity android:name=".population_component.Population_Recent_Data" />
-        <activity android:name=".population_component.Marryed_Rate"></activity>
+        <activity android:name=".population_component.Population_Marryed_Data" />
+        <activity android:name=".health_component.Health_Recent_Data" />
+        <activity android:name=".health_component.Health_Suicide_Data" />
+        <activity android:name=".employ_component.Employ_YouthJobless_Data" />
+        <activity android:name=".employ_component.Employ_LaborHour_Data" />
+        <activity android:name=".employ_component.Employ_Recent_Data" />
+        <activity android:name=".prices_component.Prices_Recent_Data" />
+        <activity android:name=".prices_component.Prices_HouseholdDebt_Data"></activity>
     </application>
 
 </manifest>

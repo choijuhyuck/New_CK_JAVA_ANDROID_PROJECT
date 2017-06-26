@@ -1,4 +1,4 @@
-package com.example.juhyuck.ck_java_android_project.population_component;
+package com.example.juhyuck.ck_java_android_project.prices_component;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -15,13 +15,14 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Population_Recent_Data extends AppCompatActivity {
+public class Prices_Recent_Data extends AppCompatActivity {
+
     private TextView tx1, tx2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.population_recent_data);
+        setContentView(R.layout.prices_recent_data);
 
 
         tx1 = (TextView) findViewById(R.id.textView1);
@@ -48,12 +49,12 @@ public class Population_Recent_Data extends AppCompatActivity {
 
 
             try {
-                Document document = Jsoup.connect("http://kosis.kr/nsportalStats/nsportalStats_0102Body.jsp?menuId=10").get();
-                // 인구*가구 title 갖고오기
-                Elements elements = document.select(".tline #menu_10");
+                Document document = Jsoup.connect("http://kosis.kr/nsportalStats/nsportalStats_0102Body.jsp?menuId=13").get();
+                //title 갖고오기
+                Elements elements = document.select(".tline #menu_13");
                 result.put("mainTilte", elements.text());
 
-                elements = document.select(".Subject #menuTop10");
+                elements = document.select(".Subject #menuTop13");
                 result.put("subTitle1", elements.text());
 
 
@@ -72,6 +73,5 @@ public class Population_Recent_Data extends AppCompatActivity {
 
         }
     }
-
-
 }
+

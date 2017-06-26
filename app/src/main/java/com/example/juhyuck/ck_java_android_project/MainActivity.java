@@ -6,8 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.juhyuck.ck_java_android_project.health_component.HealthSocietyWelfare;
+import com.example.juhyuck.ck_java_android_project.employ_component.Employ;
+import com.example.juhyuck.ck_java_android_project.health_component.Health;
 import com.example.juhyuck.ck_java_android_project.population_component.Population;
+import com.example.juhyuck.ck_java_android_project.prices_component.Prices;
 
 public class MainActivity extends AppCompatActivity {
     private Button bt1, bt2, bt3, bt4, bt5;
@@ -44,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), HealthSocietyWelfare.class);
+                Intent intent = new Intent(getApplicationContext(), Health.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
                 startActivityForResult(intent, 1000);
@@ -56,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), EmployLaborWage.class);
+                Intent intent = new Intent(getApplicationContext(), Employ.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
                 startActivityForResult(intent, 1000);

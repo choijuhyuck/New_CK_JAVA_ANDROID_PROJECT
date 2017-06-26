@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_fertility__rate"
+    android:id="@+id/activity_marryed"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.juhyuck.ck_java_android_project.population_component.Fertility_Rate">
+    tools:context="com.example.juhyuck.ck_java_android_project.population_component.Population_Marryed_Data">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -18,26 +18,26 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true">
 
-    <TextView
-        android:text="합계 출산율"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="90dp"
-        android:textSize="35dp"
-        android:textColor="@android:color/black"
-        android:layout_gravity="center_horizontal"
-        android:id="@+id/textView0" />
+        <TextView
+            android:text=" 혼인건수 "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="90dp"
+            android:textSize="35dp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textView1" />
 
 
-    <Button
-        android:text="용어설명"
-        android:textSize="12dp"
-        android:layout_marginLeft="30dp"
-        android:layout_width="70dp"
-        android:layout_height="40dp"
-        android:id="@+id/button1" />
+        <Button
+            android:text="용어설명"
+            android:textSize="12dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:id="@+id/button1" />
     </LinearLayout>
 
     <LinearLayout
@@ -51,13 +51,13 @@
 
 
         <TextView
-            android:text="연도/Year        합계 출산율 지표"
+            android:text="연도/Year           혼인건수(건) 지표"
             android:textSize="20dp"
             android:layout_marginTop="40dp"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:textColor="#000000"
-            android:id="@+id/year_tv" />
+            android:id="@+id/year_tv1" />
 
 
         <ListView
@@ -70,6 +70,5 @@
 
 
     </LinearLayout>
-
 
 </RelativeLayout>
