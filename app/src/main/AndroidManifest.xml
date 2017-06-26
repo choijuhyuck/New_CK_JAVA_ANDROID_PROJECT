@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.juhyuck.ck_java_android_project">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -17,12 +18,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".EmployLaborWage" />
-        <activity android:name=".HealthSocietyWelfare" />
+        <activity android:name=".health_component.HealthSocietyWelfare" />
         <activity android:name=".population_component.Population" />
         <activity android:name=".Prices" />
         <activity android:name=".TwthCongressPreConviction" />
         <activity android:name=".Splashactivity" />
-        <activity android:name=".population_component.Fertility_Rate"></activity>
+        <activity android:name=".population_component.Fertility_Rate" />
+        <activity android:name=".population_component.Population_Recent_Data" />
+        <activity android:name=".population_component.Marryed_Rate"></activity>
     </application>
 
 </manifest>

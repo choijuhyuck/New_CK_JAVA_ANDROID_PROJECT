@@ -5,7 +5,7 @@
     android:layout_marginTop="30dp">
 
     <TextView
-        android:text="TextView"
+        android:text="인구*가구"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="25dp"
@@ -13,21 +13,22 @@
         android:gravity="center_horizontal"
         android:id="@+id/textView1" />
 
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="25dp"
-        android:textColor="#000000"
-        android:gravity="center_horizontal"
-        android:id="@+id/textView2" />
-
     <Button
-        android:text="합계 출산율(Fertility Rate)"
+        android:text="최신통계 목록"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textSize="18dp"
+        android:id="@+id/button0" />
+
+
+    <Button
+        android:text="합계출산율"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
         android:textSize="18dp"
         android:id="@+id/button1" />
 
@@ -41,12 +42,5 @@
         android:id="@+id/button2" />
 
 
-    <Button
-        android:text="고령인구 비율"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="15dp"
-        android:textSize="18dp"
-        android:id="@+id/button3" />
+
 </LinearLayout>
