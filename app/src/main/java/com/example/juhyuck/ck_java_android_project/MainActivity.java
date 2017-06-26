@@ -9,13 +9,14 @@ import android.widget.Button;
 import com.example.juhyuck.ck_java_android_project.population_component.Population;
 
 public class MainActivity extends AppCompatActivity {
-    private Button bt1,bt2,bt3,bt4,bt5;
+    private Button bt1, bt2, bt3, bt4, bt5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-      //  activity_new.xml에 정의한 UI를 NewActivity에 표시하는 코드를 작성해야 합니다. 이는 setContentView()함수를 호출함으로써 이루어집니다.
+        //  activity_new.xml에 정의한 UI를 NewActivity에 표시하는 코드를 작성해야 합니다. 이는 setContentView()함수를 호출함으로써 이루어집니다.
+
 
         startActivity(new Intent(this, Splashactivity.class));
 
@@ -26,11 +27,11 @@ public class MainActivity extends AppCompatActivity {
         bt5 = (Button) findViewById(R.id.button5);
 
 
-        bt1.setOnClickListener(new View.OnClickListener(){
+        bt1.setOnClickListener(new View.OnClickListener() {
 
             @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),Population.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Population.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
                 startActivityForResult(intent, 1000);
@@ -38,11 +39,11 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        bt2.setOnClickListener(new View.OnClickListener(){
+        bt2.setOnClickListener(new View.OnClickListener() {
 
             @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),HealthSocietyWelfare.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), HealthSocietyWelfare.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
                 startActivityForResult(intent, 1000);
@@ -50,11 +51,11 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        bt3.setOnClickListener(new View.OnClickListener(){
+        bt3.setOnClickListener(new View.OnClickListener() {
 
             @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),EmployLaborWage.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), EmployLaborWage.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
                 startActivityForResult(intent, 1000);
@@ -62,11 +63,11 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        bt4.setOnClickListener(new View.OnClickListener(){
+        bt4.setOnClickListener(new View.OnClickListener() {
 
             @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),Prices.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Prices.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
                 startActivityForResult(intent, 1000);
@@ -74,11 +75,11 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        bt5.setOnClickListener(new View.OnClickListener(){
+        bt5.setOnClickListener(new View.OnClickListener() {
 
             @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),TwthCongressPreConviction.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), TwthCongressPreConviction.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
                 startActivityForResult(intent, 1000);

@@ -11,30 +11,49 @@
     tools:context="com.example.juhyuck.ck_java_android_project.population_component.Fertility_Rate">
 
     <LinearLayout
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true">
 
+    <TextView
+        android:text="합계 출산율"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="90dp"
+        android:textSize="35dp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textView0" />
 
-        <TextView
-            android:text="합계 출산율"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentStart="true"
-            android:textSize="35dp"
-            android:textColor="@android:color/black"
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/textView0" />
+
+    <Button
+        android:text="용어설명"
+        android:textSize="12dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:id="@+id/button1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
 
 
         <TextView
             android:text="연도/Year        합계 출산율 지표"
             android:textSize="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="40dp"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:textColor="#000000"
